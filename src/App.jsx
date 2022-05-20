@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      {/* <FloatingCircles /> */}
+      <FloatingCircles />
       <HeaderSection title='editors pick for this week' txtPlus='See artwork' />
       <HeaderSection title='popular artist' txtPlus='view all' />
       <div className="plus-section">
