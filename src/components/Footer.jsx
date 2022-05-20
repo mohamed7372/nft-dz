@@ -9,14 +9,14 @@ import SendIcon from '@mui/icons-material/Send';
 function Footer() {
     return (  
         <footer>
-            <div>
+            <div className='links'>
                 <article>
-                    <header>
+                    <header className='logo'>
                         <img src="https://images.ctfassets.net/hrltx12pl8hq/3j5RylRv1ZdswxcBaMi0y7/b84fa97296bd2350db6ea194c0dce7db/Music_Icon.jpg" alt="" />
                         <h5>NFT ART DZ</h5>
                     </header>
                     <section>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto deserunt hic suscipit veritatis, nihil vitae magnam id incidunt sunt magni mollitia pariatur minus praesentium, officia quidem asperiores? Voluptates, obcaecati ut?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur fuga magnam ducimus neque minima beatae placeat esse voluptatibus. Iusto, maiores!</p>
                         <ul className="social-media">
                             <li><FacebookRoundedIcon /></li>
                             <li><TwitterIcon /></li>
@@ -68,7 +68,7 @@ function Footer() {
                 <header>
                     <h5>Subscribe Us</h5>
                 </header>
-                <section>
+                <section className='subscribe'>
                     <input type="text" name="" id="" placeholder='info@youremail.com' />
                     <button>
                         <SendIcon/>
@@ -76,7 +76,7 @@ function Footer() {
                 </section>
                 </article>
             </div>
-            <div>
+            <div className='copy-right'>
                 <p>&copy; 2022 NFT ART DZ | All Rights Reserved.</p>
             </div>
         </footer>
