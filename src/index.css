@@ -2,6 +2,7 @@
 
 :root {
   --main-color: #1c1a47;
+  --second-color: #f521b8;
 }
 
 body {
@@ -15,5 +16,5 @@ body {
 }
 
 .container {
-  margin: 0 5%;
+  margin: 0 10%;
 }

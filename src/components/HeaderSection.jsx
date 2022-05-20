@@ -1,4 +1,5 @@
 import './HeaderSection.css'
+import ItemList2 from './ItemList2';
 
 import ArrowForwardIosRoundedIcon from '@mui/icons-material/ArrowForwardIosRounded';
 
@@ -8,12 +9,21 @@ function HeaderSection({ title, txtPlus }) {
             <nav>
                 <h3>{title}</h3>
                 <div className="link">
-                    <a>{ txtPlus }</a>
-                    <ArrowForwardIosRoundedIcon/>
+                    <p>{ txtPlus }</p>
+                    <ArrowForwardIosRoundedIcon />
+                    <div className="dash-circle"></div>
                 </div>
             </nav>
             <div className="content">
-
+                <ItemList2 />
+                <ItemList2 />
+                <ItemList2 />
+                <ItemList2 />
+                <ItemList2 />
+                <ItemList2 />
+                <ItemList2 />
+                <ItemList2 />
+                <ItemList2/>
             </div>
         </section>
     );
